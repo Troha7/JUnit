@@ -23,7 +23,7 @@ import ua.hillelit.lms.myCSV.CSVReader;
  */
 public class UtilsTest {
 
-  private final String ORDER = "/path/to/file.csv";
+  private final String ORDER = "src/main/resources/order_11.csv";
   CSVReader csvReader = Mockito.mock(CSVReader.class);
   CSVParser csvParser = Mockito.mock(CSVParser.class);
 
